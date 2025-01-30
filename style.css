@@ -170,3 +170,40 @@ body {
     align-items: end;
     font-style: normal;
 }
+
+.cta_text h2, p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 1rem;
+    background: #3882F6;
+    color: #F9FAF8;
+}
+
+
+.signup_btn {
+    margin-left: 180px;
+}
+
+.signup_btn button {
+    display: inline;
+    font-size: 18px;
+    font-weight: 900;
+    background: transparent;
+    color: #E5E7EB;
+    padding: 15px 30px 15px 30px;
+    border-radius: 1rem;
+    border: white solid;
+}

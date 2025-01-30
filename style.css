@@ -61,13 +61,14 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin: 20px;
+    border: black solid;
 }
 
 .hero-text {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 300px;
     gap: 20px;
 }
 
@@ -79,7 +80,7 @@ body {
 }
 
 .hero-text p {
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB;
     margin: 0;
 }
